@@ -56,12 +56,16 @@ From Data Builder create a view and drop the Cleaned Data table (target table in
 
 Create a Model from data Builder and drop the view created in last step and deploy it.
 
+![SAC Model](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_model.png)
+
 ### Create and Deploy other Data Flow and Model
 
-**Statistical Model: ** 
+**Statistical Model:** 
 In the similar way of obove create a Data flow from the cleaned data table to calculate statistical values like quantile ranges for each Telemetry data. Use the calcualted quantile to Analyse the data like "is the recent value is different from previous data(Outlier)".
 
-**Days Between Fault: **
+![Stastical Model](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/stat_table.png)
+
+**Days Between Fault:**
 Create a Data Flow and SAC model to calculate the average days and days since last fault between two error or maintanence or failure for each component.
 
 
