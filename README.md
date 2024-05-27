@@ -78,7 +78,7 @@ A Data Flow which used KNN algorithm to predict if there is a error or maintanan
 ![Prediction Data Flow](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/stastical_prediction_dataflow.png)
 
 
-###SAC Dashboard
+### SAC Dashboard
 
 **Monitoring Tab:**
 In the tab the telemetry data are visualized for the past 3 days and shows whether the sensor data are normal or not. The time series chart consume data from first created model. And the Abnormal monitor table uses data from stastical Model.
@@ -114,7 +114,7 @@ This tab contains chart which visualize error, maintenance and failure type of a
 
 
 
-##Repository Structure:
+## Repository Structure:
 
 * The Screenshot folder contains images of table, DataFlow, View, Model and Dashboard. Some of those are shown in the readme file.
 * The Python Script contains python scripts used in each of the data flow.
