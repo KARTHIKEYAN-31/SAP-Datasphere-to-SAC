@@ -2,7 +2,7 @@
 
 ## Data Preparation, Transformation and Model creation in SAP Datasphere
 
-![Machine Monitoring Dashboard](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dash_maintanance_error_analysis1.png)
+![Machine Monitoring Dashboard](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/dashboard.png)
 
 ### Table Creation:
 
