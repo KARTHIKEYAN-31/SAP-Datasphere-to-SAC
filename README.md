@@ -2,6 +2,8 @@
 
 ## Data Preparation, Transformation and Model creation in SAP Datasphere
 
+![Machine Monitoring Dashboard](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dash_maintanance_error_analysis1.png)
+
 ### Table Creation:
 
 Creating Tables in SAP Datasphere Data Builder: A Guide to Structured Data Management
