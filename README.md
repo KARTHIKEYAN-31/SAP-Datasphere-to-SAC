@@ -2,6 +2,8 @@
 
 ## Data Preparation, Transformation and Model creation in SAP Datasphere
 
+![Machine Monitoring Dashboard](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dash_maintanance_error_analysis1.png)
+
 ### Table Creation:
 
 Creating Tables in SAP Datasphere Data Builder: A Guide to Structured Data Management
@@ -84,26 +86,38 @@ In the tab the telemetry data are visualized for the past 3 days and shows wheth
 ![Monitoring Tab](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dashboard_monitoring_page.png)
 
 **Voltage Maintanance Tab:**
-This tab shows Voltage data for past 3 days, past 3H and 24H average Voltage.
+This tab shows Voltage data for past 3 days, past 3H and 24H average Voltage. The chart consumes data from main Model.
 
 ![Pressure](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dashboard_Voltage_Analysis.png)
 
 **Rotation Maintanance Tab:**
-This tab shows Rotateion data for past 3 days, past 3H and 24H average Rotation.
+This tab shows Rotateion data for past 3 days, past 3H and 24H average Rotation.The chart consumes data from main Model.
 
 ![Pressure](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dashboard_Rotation_Analysis.png)
 
 **Pressure Maintanance Tab:**
-This tab shows Pressure data for past 3 days, past 3H and 24H average Pressure.
+This tab shows Pressure data for past 3 days, past 3H and 24H average Pressure.The chart consumes data from main Model.
 
 ![Pressure](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dashboard_Pressure_Analysis.png)
 
 **Vibration Maintanance Tab:**
-This tab shows Vibration data for past 3 days, past 3H and 24H average Vibration.
+This tab shows Vibration data for past 3 days, past 3H and 24H average Vibration.The chart consumes data from main Model.
 
 ![Pressure](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dashboard_Vibration_Analysis.png)
 
+**Maintenance Error Failure Tab:**
+This tab contains chart which visualize error, maintenance and failure type of a machine where the data consumed from the main model. And it contains table for Error, Maintenance and Failure to shows how the value of telemetry data gets changes over different fault. Those tables consumes data from main model and prediction model And the last two tables shows how much days between the fault to occur and the days since last fault. The last two table consumes data from days between Model.
 
+![Maintenance Error and Failure](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dash_maintanance_error_analysis1.png)
+
+![Maintenance Error and Failure](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dash_maintanance_error_analysis2.png)
+
+
+
+##Repository Structure:
+
+* The Screenshot folder contains images of table, DataFlow, View, Model and Dashboard. Some of those are shown in the readme file.
+* The Python Script contains python scripts used in each of the data flow.
 
 
 
