@@ -66,7 +66,42 @@ In the similar way of obove create a Data flow from the cleaned data table to ca
 ![Stastical Model](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/stat_table.png)
 
 **Days Between Fault:**
-Create a Data Flow and SAC model to calculate the average days and days since last fault between two error or maintanence or failure for each component.
+A Data Flow and SAC model to calculate the average days and days since last fault between two error or maintanence or failure for each component.
+
+![Days Between Fault](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/days_between_data_flow.png)
+
+**Prediction Table:**
+A Data Flow which used KNN algorithm to predict if there is a error or maintanance or failure in any of the components of a machine based on historical and current telemetry data.
+
+![Prediction Data Flow](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/stastical_prediction_dataflow.png)
+
+
+###SAC Dashboard
+
+**Monitoring Tab:**
+In the tab the telemetry data are visualized for the past 3 days and shows whether the sensor data are normal or not. The time series chart consume data from first created model. And the Abnormal monitor table uses data from stastical Model.
+
+![Monitoring Tab](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dashboard_monitoring_page.png)
+
+**Voltage Maintanance Tab:**
+This tab shows Voltage data for past 3 days, past 3H and 24H average Voltage.
+
+![Pressure](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dashboard_Voltage_Analysis.png)
+
+**Rotation Maintanance Tab:**
+This tab shows Rotateion data for past 3 days, past 3H and 24H average Rotation.
+
+![Pressure](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dashboard_Rotation_Analysis.png)
+
+**Pressure Maintanance Tab:**
+This tab shows Pressure data for past 3 days, past 3H and 24H average Pressure.
+
+![Pressure](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dashboard_Pressure_Analysis.png)
+
+**Vibration Maintanance Tab:**
+This tab shows Vibration data for past 3 days, past 3H and 24H average Vibration.
+
+![Pressure](https://github.com/KARTHIKEYAN-31/SAP-Datasphere-to-SAC/blob/main/Screenshot/sac_dashboard_Vibration_Analysis.png)
 
 
 
